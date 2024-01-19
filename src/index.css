@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#root {
+    background-color: #e8eff5;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.title {
+    font-size: 38px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #000;
+}
+
+.logo {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.greeting {
+    font-size: 19px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.txt {
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #B3CADE;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 3.84px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+.input {
+    height: 50px;
+    border: 1px solid #CCC;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+.button {
+    background-color: #0267C1;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.errorText {
+    margin-bottom: 10px;
+    color: red;
+}
+
+.loader {
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #0267C1;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+    margin: auto;
+}
+
+.bulle {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 3.84px rgba(0, 0, 0, 0.25);
+    background: url('./assets/kb2pVzs.png') no-repeat center center;
+    background-size: cover;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.sectionHeader {
+    font-size: 25px;
+    text-align: center;
+}
+
+.option {
+    font-size: 18px;
+    text-align: center;
+}
+
+.done {
+    background-color: #28a745;
+    text-align: center;
+}
+
+.wait {
+    background-color: #ffc107;
+    text-align: center;
+}
+
+.canc {
+    background-color: #dc3545;
+    text-align: center;
+    color: #fff;
+}
+
+.button {
+    background-color: #0267c1;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
